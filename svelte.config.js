@@ -1,32 +1,12 @@
-import { fileURLToPath } from 'url'
 import { mdsvex } from 'mdsvex'
 import adapter from '@sveltejs/adapter-static'
-import path from 'path'
 import preprocess from 'svelte-preprocess'
-import rehypeAutolinkHeadings from 'rehype-autolink-headings'
-import rehypeSlug from 'rehype-slug'
-import remarkAbbr from 'remark-abbr'
-
-const __filename = fileURLToPath(import.meta.url)
-const __dirname = path.dirname(__filename)
+import mdsvexConfig from './mdsvex.config.js'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', '.md'],
-	preprocess: [
-		preprocess(),
-		mdsvex({
-			extensions: ['.md'],
-			smartypants: {
-				dashes: 'oldschool'
-			},
-			remarkPlugins: [remarkAbbr],
-			rehypePlugins: [rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'wrap' }]],
-			layout: {
-				_: path.join(__dirname, './src/components/LayoutDefault.svelte')
-			}
-		})
-	],
+	extensions: ['.svelte', '.svx', '.md'],
+	preprocess: [preprocess(), mdsvex(mdsvexConfig)],
 	kit: {
 		adapter: adapter({
 			fallback: '200.html'

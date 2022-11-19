@@ -2,6 +2,6 @@
 	/* Color styles */
 	--primary: rgb(28, 56, 121);
 	--primary-light: rgb(96, 126, 170);
-	--background: rgb(249, 245, 235);
+	--background: white;
 	--background-dark: rgb(234, 227, 210);
 }

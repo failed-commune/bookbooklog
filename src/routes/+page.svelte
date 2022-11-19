@@ -1,7 +1,9 @@
 <script lang="ts">
-	import type { ArticleMeta } from '$lib/types'
+	import type { PageData } from './$types'
 
-	export let posts: ArticleMeta[] = []
+	export let data: PageData
+	let posts = data.posts
+	let publishedPosts = posts.filter((p: { draft: any }) => !p.draft)
 </script>
 
 <svelte:head>

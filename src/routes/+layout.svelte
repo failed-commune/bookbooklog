@@ -1,5 +1,6 @@
 <script>
 	import '$lib/css/global.css'
+	export const prerender = true
 </script>
 
 <div class="root">
