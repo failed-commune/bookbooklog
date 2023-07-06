@@ -18,8 +18,7 @@
 			<li>
 				<p class="copyright">Copyright ©2022</p>
 			</li>
-			<li><a href="https://github.com/failed-commune" target="_blank">github</a></li>
-			<li><a href="https://twitter.com/bookbookoob" target="_blank">twitter</a></li>
+			<li><a href="https://github.com/hanseul-wang" target="_blank">github</a></li>
 		</ul>
 	</footer>
 </div>
