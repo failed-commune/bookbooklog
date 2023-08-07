@@ -138,6 +138,7 @@ a:active {
 	background-color: var(--primary);
 	text-decoration: none;
 	color: white;
+	border-radius: 0.25rem;
 }
 a:visited {
 	text-decoration: none;

@@ -2,12 +2,17 @@
 	import '$lib/css/global.css'
 </script>
 
+<svelte:head>
+	<title>북북Dev👀</title>
+	<meta name="description" content="개발하는 북북의 블로그입니다" />
+</svelte:head>
+
 <div class="root">
 	<header>
 		<h1><a href="/">북북Dev 👀</a></h1>
 		<div class="menu">
 			<a href="/about">about</a>
-			<!-- <a href="/issues">issues</a> -->
+			<a href="/posts">posts</a>
 		</div>
 	</header>
 	<main>
@@ -16,9 +21,8 @@
 	<footer>
 		<ul class="container">
 			<li>
-				<p class="copyright">Copyright ©2022</p>
+				<p class="copyright">Copyright © 2023 bookbookDev.</p>
 			</li>
-			<!-- <li><a href="https://github.com/hanseul-wang" target="_blank">github</a></li> -->
 		</ul>
 	</footer>
 </div>

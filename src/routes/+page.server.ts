@@ -1,8 +1,6 @@
-import { getArticleMetas } from '$lib/server/article'
+import { redirect } from '@sveltejs/kit'
 
-import type { PageServerLoad } from './$types'
-
-export const load: PageServerLoad = async () => {
-	const posts = await getArticleMetas('src/routes/posts')
-	return { posts }
+/** @type {import('./$types').LayoutServerLoad} */
+export function load() {
+	throw redirect(302, '/about')
 }

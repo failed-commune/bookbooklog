@@ -6,11 +6,6 @@
 	let publishedPosts = posts.filter((p: { draft: any }) => !p.draft)
 </script>
 
-<svelte:head>
-	<title>북북Dev👀</title>
-	<meta name="description" content="웹사이트 설명" />
-</svelte:head>
-
 <ul class="posts">
 	{#each posts as post}
 		<li>

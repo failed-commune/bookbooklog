@@ -1,9 +1,15 @@
 ---
 title: Hello, world!
-summary: 북북이의 공부 블로그
-publishedAt: '2022-11-19'
+summary: 북북 블로그
+publishedAt: '2023-08-08'
 desc: 첫 게시글!
 ---
 
-이런저런 개발을 주로 합니다.
-차차 채워져 가겠죠?
+---
+
+Hello, world!
+<br/>
+
+UX와 Tool making에 관심이 많은 개발자입니다.
+
+완벽하지 않은 경험들을 소소하게 기록할 예정이에요.
