@@ -7,7 +7,7 @@
 		<h1><a href="/">북북Dev 👀</a></h1>
 		<div class="menu">
 			<a href="/about">about</a>
-			<a href="/issues">issues</a>
+			<!-- <a href="/issues">issues</a> -->
 		</div>
 	</header>
 	<main>
@@ -18,7 +18,7 @@
 			<li>
 				<p class="copyright">Copyright ©2022</p>
 			</li>
-			<li><a href="https://github.com/hanseul-wang" target="_blank">github</a></li>
+			<!-- <li><a href="https://github.com/hanseul-wang" target="_blank">github</a></li> -->
 		</ul>
 	</footer>
 </div>
@@ -44,7 +44,8 @@
 	main {
 		margin: 0 auto;
 		max-width: 900px;
-		padding: 1rem;
+		padding: 1rem 2rem;
+		padding-bottom: 3rem;
 	}
 	footer {
 		width: 100%;

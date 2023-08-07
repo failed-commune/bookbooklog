@@ -1,7 +1,10 @@
 :root {
 	/* Color styles */
-	--primary: rgb(28, 56, 121);
+	--primary: #0682ff;
 	--primary-light: rgb(96, 126, 170);
+	--secondary: #ff6b00;
 	--background: white;
 	--background-dark: rgb(234, 227, 210);
+	--text: #333;
+	--text-light: #666;
 }
